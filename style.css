@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #000;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 18px;
+  color: #666;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.portfolio {
+  padding: 40px 20px;
+  text-align: center;
+}
+.portfolio h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.gallery img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 8px;
+}
+#booking, #contacts {
+  padding: 40px 20px;
+}
+.content {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+blockquote {
+  background: #f0f0f0;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  font-style: italic;
+  border-left: 5px solid #000;
+}
